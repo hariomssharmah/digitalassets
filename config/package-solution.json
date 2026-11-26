@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "digital-assets-client-side-solution",
+    "id": "bd11cad0-7b7b-4760-b296-9aa0dcf0f8ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DigitalAssets description"
+      },
+      "longDescription": {
+        "default": "DigitalAssets description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "digital-assets Feature",
+        "description": "The feature that activates elements of the digital-assets solution.",
+        "id": "61e52f33-8a01-48c5-aa83-f5066b0170ea",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/digital-assets.sppkg"
+  }
+}

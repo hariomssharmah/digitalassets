@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "digital-assets-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/digitalAssets/DigitalAssetsWebPart.js",
+          "manifest": "./src/webparts/digitalAssets/DigitalAssetsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DigitalAssetsWebPartStrings": "lib/webparts/digitalAssets/loc/{locale}.js"
+  }
+}
